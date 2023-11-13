@@ -20,7 +20,9 @@ body {
 
 
 p,
-li {
+li,
+th,
+tr {
     font-family: test_font2;
     color: #540a00;
     text-align: justify;
