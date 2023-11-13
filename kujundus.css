@@ -1,14 +1,30 @@
-
-h1 {
-    font-family:monospace;
-    font-weight:bolder
+@font-face {
+    font-family: test_font;
+    src: url(assets/ELEPHNTI.TTF)
 }
 
+@font-face {
+    font-family: test_font2;
+    src: url(assets/LFAX.TTF)
+}
+
+
+h1 {
+    font-family: test_font;
+    color: #b39087
+}
+
+body {
+    background-color: aliceblue;
+}
 
 
 p,
 li {
-    font-family:monospace
+    font-family: test_font2;
+    color: #540a00;
+    text-align: justify;
+    text-justify: inter-word
 }
 
 body {
