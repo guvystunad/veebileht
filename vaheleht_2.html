@@ -1,37 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retsept 2</title>
     <link rel="stylesheet" type="text/css" href="kujundus.css">
+    <link rel="stylesheet" type="text/css" href="vahelehtede_kujundus.css">
 </head>
-<body>
-    <h1>Praetud pelmeenid</h1>
-    <p> Ideaalne retsept laisale, vaesele ja/või pohmas tudengile. Kiired, lihtsad ja maitsvad pelmeenid ootavad söömist! </p>
-    <br>
-    <table id="nimekiri">
-        <tr> <th>Vaja läheb:</th> </tr>
-        <tr> <td>vabalt valitud külmutatud pelmeenid</td> <td> <input type="checkbox" class="myCheck" onchange="checkAll()"> </td> </tr>
-        <tr> <td>törts õli</td> <td> <input type="checkbox" class="myCheck" onchange="checkAll()"> </td> </tr>
-        <tr> <td>u. klaas vett</td> <td> <input type="checkbox" class="myCheck" onchange="checkAll()"> </td> </tr>
-    </table>
-    <br>
-    <p id="kiri" style="display:none">Kõik asjad on olemas!</p>
-    <script src="nimekiri.js"></script>
-    <br>
-    <p> Valmistamine:  </p>
-    <ol>
-        <li> Pane pann pliidile ja lase tal keskmise kuumuse pea soojaks minna </li>
-        <li> Lisa pannile törts õli ning lase sel soojeneda kuniks ta on voolav ja kattab kogu panni ühtlase õhukese kihina </li>
-        <li> Lisa pannile pelmeenid </li>
-        <li> Lase pelmeenidel praadida, vahepeal sega, kuniks pelmeenid on kuldpruunid </li>
-        <li> Lisa pannile silma järgi sorts vett </li>
-        <li> Sega pelmeene vees, kuniks vesi on pannilt ära auranud </li>
-        <li> Transpordi pelmeenid kaussi või söö otse pannilt vabalt valitud kastmega (soovitame hapukoort) </li>
-    </ol>
 
-    <br>
-    <img scr="assets/praetudpelmeenidnami.jpg" alt="Pilt pelmeenidest">
+<body>
+    <div class="taust">
+        <h1>Praetud pelmeenid</h1>
+        <p> Ideaalne retsept laisale, vaesele ja/või pohmas tudengile. Kiired, lihtsad ja maitsvad pelmeenid ootavad
+            söömist! </p>
+        <br>
+        <div class="kaheks">
+            <div class="column1">
+                <img scr="assets/praetudpelmeenidnami.jpg" alt="Pilt pelmeenidest">
+            </div>
+            <div class="column1">
+                <table id="nimekiri">
+                    <tr>
+                        <th>Vaja läheb:</th>
+                    </tr>
+                    <tr>
+                        <td>vabalt valitud külmutatud pelmeenid</td>
+                        <td> <input type="checkbox" class="myCheck" onchange="checkAll()"> </td>
+                    </tr>
+                    <tr>
+                        <td>törts õli</td>
+                        <td> <input type="checkbox" class="myCheck" onchange="checkAll()"> </td>
+                    </tr>
+                    <tr>
+                        <td>u. klaas vett</td>
+                        <td> <input type="checkbox" class="myCheck" onchange="checkAll()"> </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <p id="kiri" style="display:none">Kõik asjad on olemas!</p>
+            <script src="nimekiri.js"></script>
+        </div>
+        <br>
+        <p> Valmistamine: </p>
+        <ol>
+            <li> Pane pann pliidile ja lase tal keskmise kuumuse pea soojaks minna </li>
+            <li> Lisa pannile törts õli ning lase sel soojeneda kuniks ta on voolav ja kattab kogu panni ühtlase õhukese
+                kihina </li>
+            <li> Lisa pannile pelmeenid </li>
+            <li> Lase pelmeenidel praadida, vahepeal sega, kuniks pelmeenid on kuldpruunid </li>
+            <li> Lisa pannile silma järgi sorts vett </li>
+            <li> Sega pelmeene vees, kuniks vesi on pannilt ära auranud </li>
+            <li> Transpordi pelmeenid kaussi või söö otse pannilt vabalt valitud kastmega (soovitame hapukoort) </li>
+        </ol>
+
+        <br>
+    </div>
 </body>
+
 </html>

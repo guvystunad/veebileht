@@ -15,19 +15,9 @@ h1 {
 }
 
 body {
-    background-color: aliceblue;
+    background-image: url(assets/taust.jpg);
 }
 
-
-p,
-li,
-th,
-tr {
-    font-family: test_font2;
-    color: #540a00;
-    text-align: justify;
-    text-justify: inter-word
-}
 
 body {
     background-color: lightblue;
