@@ -28,3 +28,7 @@ tr {
     text-align: justify;
     text-justify: inter-word
 }
+
+body {
+    background-color: lightblue;
+}
