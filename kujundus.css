@@ -18,30 +18,97 @@ body {
     background-image: url("taust.jpg");
 }
 
-
-
-.column1 {
-    float: left;
-    width: 33.33%;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
+.logo img {
+    width: 400px;
+    height: auto;
+}
 
-
-.nupud {
-    background-color: white;
-    color: black;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 50%;
-    float: right;
-    width: 33.33%;
+.buttons {
     display: flex;
 }
 
+.tervitus {
+    font-family: test_font2, sans-serif;
+}
 
-.column2 {
-    flex: 1;
-    float: center;
-    width: 50%;
+.nupud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px; 
+    height: 60px;
+    margin: 4px 2px;
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+.button-link {
+    display: block;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+}
+
+.sisu {
+    text-align: center; 
+   
+}
+
+
+.h4 .kast {
+    background-color: rgba(251, 255, 243, 1);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+
+
+.retseptid {
+    display: flex;
+    justify-content: space-around; 
+    font-family: test_font2, sans-serif;
+}
+
+
+.retseptid div {
+    width: 45%; 
+    padding: 10px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container {
+    max-width: 100%; 
+    margin: 0 auto;  
+}
+
+
+.taust {
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
