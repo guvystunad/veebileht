@@ -18,6 +18,13 @@ body {
     background-image: url(assets/taust.jpg);
 }
 
+p,
+li,
+th,
+td {
+    font-family: test_font2;
+    color:#402000
+}
 
 body {
     background-color: #D5E7CF;
